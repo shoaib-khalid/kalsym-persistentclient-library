@@ -1,0 +1,6 @@
+-----------------
+kalsym-persistentclient-library-1.0-FINAL
+-----------------
+Bug fix in Persistent Client class for high CPU usage when persistent server down
+1. set setSoTimeout in PersistentClient
+2. when connection down, don't attempt to send & receive socket
